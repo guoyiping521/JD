@@ -83,15 +83,43 @@ var id=location.search.split("=")[1];
        <span class="span3"> 查看榜单&gt;</span>
      </div>
      <div class="addcart">
+     <span class="jian">-</span>
+       <input class="num" value="1"></input>
        <span class="add">+</span>
-       <p class="num">1</p>
-       <span class="jian">-</span>
      </div>
-     <div class="jiaru">加入购物车</div>  
+     <div class="jiaru" id="addru"  data-id="${res.data.pid}">加入购物车</div>  
     </div>  
 
     `;
     $(".banner").html(str1);
+    $("#addru").click(function(){
+        let pid=$(this).attr("data-id");
+        $.get("http://jx.xuzhixiang.top/ap/api/add-product.php",{
+            uid:localStorage.getItem("id"),
+            pid:location.search.split("=")[1],
+            pnum:$(".num").val(),
+        })
+        localStorage.setItem("pid",pid);
+        location.href="cartlist.html"
+
+    })
+    $(".addcart .jian").click(function(){
+        // $(".addcart .num").val()--;
+        var num=Number($(".addcart .num").val());
+        if($(".addcart .num").val(num)>1){
+            $(".addcart .num").val(--num);
+        }else{
+            $(".addcart .num").val(num=1);
+        }
+        
+    })
+    $(".addcart .add").click(function(){
+        // console.log($(".addcart .num").val())
+        var num=Number($(".addcart .num").val());
+        $(".addcart .num").val( ++num);
+    })
+
+    // console.log($(".addcart .num"));
  }).then(function(){
 
 //

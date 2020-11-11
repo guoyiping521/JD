@@ -117,5 +117,208 @@ margin-top: 1px;
 }
 .quanxuan{
   width: 990px;
-  
+  height: 43px;
+  background-color: #cecece;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  .quan{
+    width: 133px;
+    height: 25px;
+    line-height:25px;
+    padding-left: 5px;
+    input{
+      width: 12.8px;
+      height: 12.8px;
+      float: none;
+      position: relative;
+      z-index: 10;
+      vertical-align: middle;
+      margin: 0 3px 0 0;
+    }
+  }
+  .shang{
+    width: 208px;
+    height: 32px;
+    line-height: 32px;
+  }
+  .kong{
+    width: 170px;
+    height: 32px;
+    line-height: 32px;
+  }
+  .dan{
+    width: 170px;
+    height: 32px;
+    line-height: 32px;
+  }
+  .shu{
+    width: 88px;
+    height: 32px;
+    line-height: 32px;
+  }
+  .xiao{
+    width: 140px;
+    height: 32px;
+    line-height: 32px;
+  }
+  .cao{
+    width: 75px;
+    height: 32px;
+    line-height: 32px;
+  }
 }
+hr{
+  width: 990px;
+  height: 2px;
+  background-color:#cecece ;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.jtshop{
+  width: 988px;
+  height: 119px;
+  border-top: 1px solid #c5c5c5;
+  background: #fff;
+  border: 1px solid #cecece;
+  margin: 0 auto;
+  display: flex;
+  .p-checkbox{
+    width: 30px;
+    height: 45px;
+    z-index: 3;
+    width: 30px;
+    min-height: 10px;
+    margin-left: 10px;
+    input{
+      width: 12.8px;
+      height: 12.8px;
+      margin-top: 16px;
+    }
+  }
+  .jdsp{
+    width: 300px;
+    height: 107px;
+    display: flex;
+    .jdspimg{
+      width: 80px;
+      height: 80px;
+  
+      img{
+        width: 80px;
+        height: 80px;
+        margin-top: 16px;
+      }
+    }
+    .jdsptxt{
+      width: 204px;
+      height: 75px;
+      margin-top: 16px;
+      margin-left: 10px;
+      font-size: 12px;
+      color: #666;
+      line-height: 20px;
+    }
+  }
+  .chicun{
+    width: 90px;
+    height: 107px;
+    font-size: 12px;
+    color: #666;
+  }
+  .price{
+    padding-top: 14px;
+    width: 190px;
+    height: 107px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    color: #666;
+  }
+  .aj{
+    width: 85px;
+    height: 65px;
+    margin-left: 35px;
+    display: flex;
+    margin-top: 8px;
+    button{
+      width: 17px;
+      height: 20px;
+      background-color: #cecece;
+      border: none;
+      margin-top:14px;
+      font-size: 12px;
+      color: #666;
+    }
+    input{
+      width: 46px;
+      height: 18px;
+      border: none;
+      padding: 0;
+      margin: 0;
+      margin-top: 14px;
+      text-align: center;
+      border-bottom: 1px solid #cecece;
+      border-top: 1px solid #cecece;;
+    }
+  }
+  .danprice{
+    width: 140px;
+    height: 45px;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 35px;
+  }
+  .delete{
+    width: 100px;
+    height: 65px;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #666;
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+   
+    flex-direction: column;
+    .del{
+      display: block;
+      width: 75px;
+      height: 25px;
+    }
+    .guanzu{
+      width: 75px;
+      height: 20px;
+      display: block;
+      padding-left: 20px;
+      
+    }
+  }
+}
+.delete .del:hover {
+  color: #f10215;
+}
+.delete .guanzhu:hover {
+  color: #f10215;
+}
+.jdsp .jdsptxt:hover{
+  color: #f10215;
+}
+.price .xian:hover{
+  color: #f10215;
+}
+.maxbox{
+  width: 988px;
+  // height: 500px;
+  border-top: 1px solid #c5c5c5;
+  background: #fff;
+  border: 1px solid #cecece;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+

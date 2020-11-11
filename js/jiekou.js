@@ -26,14 +26,14 @@ $(function(){
     uid:43997,
     pagesize:10,
   },data=>{
-    console.log(data);
+   // console.log(data);
     // let productDatas=data
     //  localStorage.setItem("data",JSON.stringify(productDatas));
     // let data1=JSON.parse(localStorage.getItem("productDatas"));
     str="";
     let data2=data.data
-    console.log(data2);
-    console.log(data2[0]);
+    //console.log(data2);
+   // console.log(data2[0]);
     // for(var item in data2){
       for(let i=0;i<data2.length;i++){
      

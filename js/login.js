@@ -14,8 +14,8 @@ $(".input").click(function(){
     let zhang=$(".name input").val();
     let mi=$(".pass input").val();
     $.get("http://jx.xuzhixiang.top/ap/api/login.php",{
-        "username":"zhang",
-        "password":"mi"
+        "username":zhang,
+        "password":mi
     },data=>{
         console.log(data);
         if(data.code==1){
