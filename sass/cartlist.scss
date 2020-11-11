@@ -1,0 +1,121 @@
+*{
+  padding: 0 ;
+  margin: 0;
+}
+.navkuo{
+  width: 100%;
+  background-color: #e3e4e5;
+}
+.nav{
+  width: 1190px;
+  height: 30px;
+  background-color: #e3e4e5;
+  margin: 0 auto;
+  display: flex;
+
+}
+.navl{
+  width: 60px;
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+  color: #999999;
+  margin-left: 8px;
+  display: flex;
+  
+ 
+}
+.nav .icon-dituhdpi{
+  color: #f10215;
+}
+.nav .navl span{
+margin-top: -10px; 
+display: inline-block;
+width: 24px;
+height: 30px;
+line-height: 30px;
+margin-top: 1px;
+}
+.nav .navm{
+  // float: left;
+  width: 110px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #999999;
+  margin-left: 405px;
+  overflow:hidden;
+  text-overflow:ellipsis; 
+  -o-text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.nav .navm span{
+  color: #f10215;
+}
+.nav .navr{
+  height: 30px;
+  width: 620px;
+  padding: 0;
+  margin: 0;
+}
+.nav .navr {
+  height: 30px;
+  width: 620px;
+  display: flex;
+  line-height: 30px;
+}
+.nav .navr li{
+  height: 28px;
+  width: 77px;
+  font-size: 12px;
+  color: #999999;
+  line-height: 30px;  
+  text-align: center;
+}
+.nav ul,li{
+  list-style: none;
+  
+}
+.nav li a{
+  text-decoration: none;
+  color: #999999;
+ 
+}
+.nav li .icon-jiantou9{
+  font-size: 6px;
+}
+.losou{
+  width: 990px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo{
+    width: 134px;
+    height: 42px;
+  }
+  .sousuo{
+    width: 326px;
+    height: 28px;
+    display: flex;
+    border: 2px solid #f10215;
+    margin-top: 10px;
+    .sousuol{
+      width: 270px;
+      height: 24px;
+    }
+    .sousuor{
+      width: 56px;
+      height: 28px;
+      text-align: center;
+      line-height: 28px;
+      background-color: #f10215;
+      color: white;
+    }
+  }
+}
+.quanxuan{
+  width: 990px;
+  
+}
