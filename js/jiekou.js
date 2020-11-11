@@ -47,6 +47,9 @@ $(function(){
         <p class="jiaru" data-id="${data2[i].pid}" >加入购物车</p>
       </div>  
     </div>
+
+
+    
       `;
     }
     // console.log(str);
@@ -56,55 +59,22 @@ $(function(){
   
 
 //详情页商品接口
-var id=location.search.split("=")[1];
-// var pid=location.search.replace("?","");
- $.get("http://jx.xuzhixiang.top/ap/api/detail.php",{
-  id:id,
- },res=>{
-    //  console.log(res);
-    //  let data1=res.data
-    // console.log(data1);
-    let str1="";
-     $.each(res,function(index,item){
-         str1+=`
-      
-   
-          <div class="name">${item.pname}</div>
-          <div class="navimg"><img src="http://m.360buyimg.com/cc/jfs/t1/131760/40/12813/34661/5f8d5e9aEafe475c8/42e7f0669a582bd1.png" alt=""></div>
-          <div class="price">
-           <div class="price_r">
-             <span class="span1">累计评价</span>
-             <span class="span2">378万+</span>
-           </div>
-            <div class="price_t">
-              <h5>京东价</h5>
-              <i>￥</i>
-              <span class="span1">${item.pprice}</span>
-              <span class="span2">降价通知</span>
-            </div>
-            <div class="price_b">
-             <h5>促销</h5>
-             <span class="span1">换购</span>
-             <span class="span2">购买一件可优惠换购热销商品 立即换购&gt;&gt;</span>
-           </div>
-          </div>
-          <div class="xiaoliang">
-            <span class="span1">销量榜</span>
-            <span class="span2">手机销量排名 第1名</span>
-            <span class="span3"> 查看榜单&gt;</span>
-          </div>
-          <div class="addcart">
-            <span class="add">+</span>
-            <p class="num">1</p>
-            <span class="jian">-</span>
-          </div>
-          <div class="jiaru">加入购物车</div>
+// var id=location.search.split("=")[1];
+// // var pid=location.search.replace("?","");
+//  $.get("http://jx.xuzhixiang.top/ap/api/detail.php",{
+//   id:id,
+//  },res=>{
+//     //  console.log(res);
+//     //  let data1=res.data
+//     // console.log(data1);
+//     let str1="";
+//     console.log(res.data)
+//      $('.name').html(res.data.pname)
+//      $('.price').html(res.data.pprice)
+    
      
-        
-         `;
-     })
-     $(".banner_r").html(str1);
- })
+
+//  })
 
 
 })
