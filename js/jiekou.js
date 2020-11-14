@@ -24,6 +24,7 @@ $(function(){
   // 商品列表接口
   $.get("http://jx.xuzhixiang.top/ap/api/productlist.php",{
     uid:43997,
+    // uid:localStorage.getItem("uid"),
     pagesize:10,
   },data=>{
    // console.log(data);

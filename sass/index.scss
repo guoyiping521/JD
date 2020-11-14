@@ -286,6 +286,7 @@ $red:#e1251b;
   height: 710px;
   background: url("//img12.360buyimg.com/img/jfs/t1/142886/16/13604/574592/5fa51d5cEbc406f7d/076234633beaaa25.png.webp") no-repeat -190px 0;
 }
+
 .banner{
   width: 1190px;
   height: 480px;
@@ -296,7 +297,7 @@ $red:#e1251b;
   .banner_l{
     width: 190px;
     height: 480px;
-    background-color: salmon;
+    background-color: white;
     ul{
       padding: 0;
       margin-left: 18px;
@@ -1099,3 +1100,6 @@ background: rgba(0,0,0,0.5);text-indent: 100px;cursor: pointer;}
   //   color: #333;
   // }
 }
+// .banner .banner_l ul:hover li{
+//   color: $red;
+// }
